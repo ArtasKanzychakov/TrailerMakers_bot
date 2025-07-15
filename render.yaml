@@ -6,4 +6,4 @@ services:
     startCommand: "python main.py"
     build:
       environment:
-        pythonVersion: 3.10.13
+        pythonVersion: 3.11.9
