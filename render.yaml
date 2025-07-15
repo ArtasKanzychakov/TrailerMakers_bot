@@ -1,9 +1,9 @@
-TrailerMakers_botservices:
+services:
   - type: web
-    name: TrailerMakers_bot
+    name: aiogram-bot
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
+    startCommand: "python main.py"
     build:
       environment:
         pythonVersion: 3.10.13
